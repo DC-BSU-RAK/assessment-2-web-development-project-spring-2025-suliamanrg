@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply - Heriot-Watt University</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS STYLESHEET/Apply.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Heriot-Watt University</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="About Us.html">About us</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Campus.html">Campuses</a>
+        <a href="Apply.html">Apply</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Apply Now</h2>
+      <p>Start your journey with Heriot-Watt University and shape your global future today.</p>
+    </div>
+  </section>
+
+  <section class="apply-section">
+    <div class="container">
+      <h3>Application Form</h3>
+      <form class="application-form">
+        <div class="form-group">
+          <label for="full-name">Full Name:</label>
+          <input type="text" id="full-name" name="full-name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="program">Select Program:</label>
+          <select id="program" name="program" required>
+            <option value="">-- Choose a program --</option>
+            <option value="bsc-cs">BSc Computer Science</option>
+            <option value="bba">Bachelor of Business Administration</option>
+            <option value="mech-eng">BEng Mechanical Engineering</option>
+            <option value="msc-ds">MSc Data Science</option>
+            <option value="mba">Master of Business Administration</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Message:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Optional..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Heriot-Watt University. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
